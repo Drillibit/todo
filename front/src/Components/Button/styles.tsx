@@ -11,6 +11,7 @@ export const ButtonStyled = styled.button`
   background-image: ${({ theme }) => theme.backgroundPrimary || 'linear-gradient(110deg, #43e695 -49%, #3bb2b8 75%)'};
   font-size: 18px;
   color: #ffffff;
+  cursor: pointer;
 
   transition: all 0.1s ease-in-out;
 
